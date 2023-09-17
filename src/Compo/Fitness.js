@@ -1,10 +1,9 @@
 import React, { useContext } from 'react'
-import { Store } from '../ContextStore/Storing';
+import { Store } from '../ContextStore/Storing'
 
-const Food = () => {
+function Fitness() {
   const [dataContext]=useContext(Store);
-  console.log(dataContext)
-  
+  console.log(dataContext);
   return (
     <>
     
@@ -12,4 +11,4 @@ const Food = () => {
   )
 }
 
-export default Food;
+export default Fitness
