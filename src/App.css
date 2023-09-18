@@ -85,13 +85,14 @@ left: 3%;
  
 #bottom-homepage{
   width: 45vw;
-  height:100vh;
+  height:200vh;
   contain: content;
   display: flex;
   flex-direction:column;
   justify-content: space-evenly;
   margin-top: 25%;
   text-wrap: wrap;
+  offset: inherit;
 }
 #top-stories{
   position: absolute;
@@ -122,12 +123,55 @@ box-sizing: border-box;
   border-bottom: 3px solid red;
 }
 
+#bottom-right{
+
+position: absolute;
+top: 190%;
+right: 2%;
+  width: 45vw;
+  height: 140vh;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-evenly;
 
 
+  contain: content;
+
+}
 
 
+#rigth-bottom-item-1{
+  
+  width: 100%;
+  height: 20vh;
+  float: left;
+  content: unset;
+}
+#number{
 
+  position: absolute;
+  top:24%;
+  right: 2%;
+  font-weight: light;
+  font-style:inherit;
 
+  font-size: 3.5rem;
+}
+#img-right-bottom{
+  float: left;
+}
+
+#advertise{
+  position: absolute;
+  top:330%;
+  right: 12%;
+  width: 35vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
 
 
 

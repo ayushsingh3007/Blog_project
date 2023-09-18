@@ -126,6 +126,57 @@ function Home() {
     </>)
   })}
 </div>
+<div id='bottom-item'>
+  {dataContext.filter((item)=>item.id===46).map((item,index)=>{
+    return(
+    <>
+    <img src={item.Food_img} alt='not there' width="200rem" id='bottom-img'/>
+    <span>{item.story}</span>
+    
+    </>)
+  })}
+</div>
+<div id='bottom-item'>
+  {dataContext.filter((item)=>item.id===46).map((item,index)=>{
+    return(
+    <>
+    <img src={item.Food_img} alt='not there' width="200rem" id='bottom-img'/>
+    <span>{item.story}</span>
+    
+    </>)
+  })}
+</div>
+<div id='bottom-item'>
+  {dataContext.filter((item)=>item.id===46).map((item,index)=>{
+    return(
+    <>
+    <img src={item.Food_img} alt='not there' width="200rem" id='bottom-img'/>
+    <span>{item.story}</span>
+    
+    </>)
+  })}
+</div>
+
+<div id='bottom-item'>
+  {dataContext.filter((item)=>item.id===46).map((item,index)=>{
+    return(
+    <>
+    <img src={item.Food_img} alt='not there' width="200rem" id='bottom-img'/>
+    <span>{item.story}</span>
+    
+    </>)
+  })}
+</div>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -135,8 +186,50 @@ function Home() {
 
 <h3 id='top-post'>Top Posts</h3>
 <div id='bottom-right'>
+   <div id="rigth-bottom-item-1">
+    {dataContext.filter((item)=>item.id===5).map((item,index)=>{
+      return(
+      <>
+      <img src={item.bolly_img} alt='not found' width="250rem" id='img-right-bottom'/>
+      <p>{item.name}</p>
+      <h1 id='number' >1</h1>
+
+      </>
+)    })}
+   </div>
+   <div id="rigth-bottom-item-1">
+    {dataContext.filter((item)=>item.id===5).map((item,index)=>{
+      return(
+      <>
+      <img src={item.bolly_img} alt='not found' width="250rem" id='img-right-bottom'/>
+      <p>{item.name}</p>
+      <h1 id='number' >1</h1>
+
+      </>
+)    })}
+   </div>
+   <div id="rigth-bottom-item-1">
+    {dataContext.filter((item)=>item.id===5).map((item,index)=>{
+      return(
+      <>
+      <img src={item.bolly_img} alt='not found' width="250rem" id='img-right-bottom'/>
+      <p>{item.name}</p>
+      <h1 id='number' >1</h1>
+
+      </>
+)    })}
+   </div>
+
+
+
 
 </div>
+
+<div id="advertise"><h1>Advertisement</h1></div>
+
+
+
+
 
 
 
