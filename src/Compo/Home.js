@@ -11,9 +11,9 @@ function Home() {
         return(
           <div id='home-item-1'>
           
-          <img src={item.bolly_img} width="95%" height="80%" alt='no there'/>
+          <img src={item.bolly_img} width="105%" height="90%" alt='no there'/>
           <h3>{item.name}</h3>
-          <p>{item.story}</p>
+          {/* <p>{item.story}</p> */}
 
 
           </div>
@@ -23,9 +23,9 @@ function Home() {
       {dataContext.filter((item)=>item.id===25).map((item,index)=>{
       return(
         <div id='home-item-2'>
-        <img src={item.holly_img} width="100%"height="75%" alt='not there'/>
+        <img src={item.holly_img} width="70%"height="90%" alt='not there'/>
         <h3>{item.name}</h3>
-        <p>{item.story}</p>
+        {/* <p>{item.story}</p> */}
       
       </div>
       
@@ -36,9 +36,9 @@ function Home() {
             return(
               <div id='home-item-3'>
 
-              <img src={item.tech_img} width="100%" height="75%" alt='not there'/>
+              <img src={item.tech_img} width="70%" height="90%" alt='not there'/>
               <h3>{item.name}</h3>
-              <p>{item.story}</p>
+              {/* <p>{item.story}</p> */}
               
               </div>
             )
@@ -87,24 +87,60 @@ function Home() {
     </div>
 </div>
 
+<h3 id='top-stories'>Top Stories</h3>
+<div id='bottom-homepage'>
+<div id='bottom-item'>
+{dataContext.filter((item)=>item.id===11).map((item,index)=>{
+  return(
+    <>
+    <img src={item.bolly_img} alt='not there' width="200rem" id='bottom-img' />
+    <p>{item.story}</p>
+    
+    </>
+    
+  )
+  
+})}
+</div>
+<div id="bottom-item">
+{dataContext.filter((item)=>item.id===35).map((item,index)=>{
+  return(
+    <>
+    <img src={item.tech_img} alt='not there' width="200rem"  id='bottom-img'/>
+    <p>{item.story}</p>
+    
+    </>
+    
+  )
+  
+})}
+</div>
+
+<div id='bottom-item'>
+  {dataContext.filter((item)=>item.id===46).map((item,index)=>{
+    return(
+    <>
+    <img src={item.Food_img} alt='not there' width="200rem" id='bottom-img'/>
+    <span>{item.story}</span>
+    
+    </>)
+  })}
+</div>
 
 
 
 
+</div>
+
+
+<h3 id='top-post'>Top Posts</h3>
+<div id='bottom-right'>
+
+</div>
 
 
 
-
-
-
-
-
-
-
-
-
-
- </>
+</>
   )
 
 }
