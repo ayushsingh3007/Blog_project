@@ -1,0 +1,13 @@
+.navbar-set{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    text-decoration:none;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height:6vh;
+    border-bottom: 1px solid rgb(102, 99, 99);
+  
+   }
