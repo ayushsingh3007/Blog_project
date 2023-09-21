@@ -30,7 +30,7 @@ const Home = () => {
       return(
         <>
         
-        <img src={item.Holly_img} alt='not there' id='thelatest-img'/>
+        <img src={item.holly_img} alt='not there' id='thelatest-img'/>
         <h4>{item.name}</h4>
         <p>{item.story.slice(0,159)}....</p>
         </>
