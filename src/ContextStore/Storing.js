@@ -112,107 +112,107 @@ export const Storing = (props) => {
     {
       id:16,
       cat:"Hollywood",
-      holly_img:"https://m.media-amazon.com/images/M/MV5BMWM1NjU1MDgtYjhjYS00Mjg5LWE1MWEtNzUwNWMxNTU2ZWY3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UY209_CR0,0,140,209_AL_.jpg",
-      name:"Inception",
-      story:"A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster."
+      holly_img:"https://www.hollywoodreporter.com/wp-content/uploads/2023/03/MCDBLPA_EC076-H-2023.jpg?w=1024",
+      name:"Black Panther",
+      story:"Navigating the Marvel Cinematic Universe — or is it a Multiverse now? — requires, for many of us, a certain tolerance for green or LED screens, mass destruction, snarky dialogue and cosmic shtick. There are a few notable movies in the canon, but distinguishing one from the other isn’t always easy — which is what makes Ryan Coogler’s stirring and majestic Black Panther all the more of a standout. "
     },
     {
       id:17,
       cat:"Hollywood",
-      holly_img:"https://m.media-amazon.com/images/M/MV5BMWM1NjU1MDgtYjhjYS00Mjg5LWE1MWEtNzUwNWMxNTU2ZWY3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UY209_CR0,0,140,209_AL_.jpg",
-      name:" Ahsoka",
-      story:"After the fall of the Galactic Empire, former Jedi Knight Ahsoka Tano investigates an emerging threat to a vulnerable galaxy."
+      holly_img:"https://www.hollywoodreporter.com/wp-content/uploads/2023/03/MCDTIME_ZU004-H-2023.jpg?w=1024",
+      name:"Time",
+      story:"Garrett Bradleys documentary observes the brutality of the American carceral system from an uncommon vantage point. The filmmaker jettisons the expository soundbites of talking heads and the contextual support of charts and numbers, choosing instead to construct an impressionistic portrait of one family’s specific experience."
     },
     {
       id:18,
       cat:"Hollywood",
-      holly_img:"https://www.imdb.com/title/tt11737520/mediaviewer/rm3448251905/?ref_=tt_ov_i",
-      name:"One Piece",
-      story:"In a seafaring world, a young pirate captain sets out with his crew to attain the title of Pirate King, and to discover the mythical treasure known as 'One Piece.'"
+      holly_img:"https://www.hollywoodreporter.com/wp-content/uploads/2023/03/46.-Bright-Star-MCDBRST_EC020-H-2023.jpg?w=1024",
+      name:"Bright Star",
+      story:"It’s the story of an unconsummated love affair in the final years of John Keats’ short life. Catnip for English majors? No question. But Jane Campion’s fine balance between the sumptuous and the trenchant will seduce even the sonnet-averse. In Ben Whishaw and Abbie Cornish’s elegant, deeply felt performances, the attraction between Keats and Fanny Brawne plays out across drawing rooms and the sunlit heath"
     },
     {
       id:19,
       cat:"Hollywood",
-      holly_img:"https://www.91-cdn.com/metareel-images/content/backdrops-6-1694875773315-z5lmu6XvyE2VCkJElwuSmZghKE8.jpg?tr=h-250,q-60",
-      name:"A Million Miles Away",
-      story:"Jose M Hernandez, who was born in Mexico, created the first digital mammography system when he was employed as a labourer and later accomplished his ambition by serving the crew onboardÂ Space Shuttle mission STS-128."
+      holly_img:"https://www.hollywoodreporter.com/wp-content/uploads/2023/03/47.-Pariah-MCDPARI_EC103-H-2023.jpg?w=1024",
+      name:"Pariah",
+      story:"Dee Rees’ breakthrough is a rare gem among coming-of-age films: a potent and sobering yet hopeful narrative about a young Black lesbian’s journey to self-acceptance. For that alone, the film — whose director recently became the first African American woman and queer woman of color to get a Criterion release — is well worth seeing. What lifts it onto this list is one of the century’s most stirring and unforgettable performances: Adepero Oduye as Alike, or “Lee,” a 17-year-old Black Brooklyn girl struggling to navigate her identity within the strictures set by her religious and socially conservative parents. "
     },
     {
       id:20,
       cat:"Hollywood",
-      holly_img:"",
-      name:"Love At First Sigh",
-      story:"Hadley and Oliver begin falling in love on a flight from New York to London, but when they lose each other at customs, can they defy all odds to reunite?"
+      holly_img:"https://www.hollywoodreporter.com/wp-content/uploads/2023/03/48.-Bridesmaids-MCDBRID_EC050-H-2023.jpg?w=1024",
+      name:"Bridesmaids",
+      story:"Finally, a film that lets women be funny!” was the word on the street upon the release of Paul Feig’s movie about a 30-something (Kristen Wiig) who spirals way, way, waaaaay out of control when her BFF (Maya Rudolph) gets engaged. There’s truth to that take, but Bridesmaids was also just the most satisfying, richly realized and consistently laugh-out-loud-hilarious comedy in years — and has yet to be dethroned."
     },
     {
       id:21,
       cat:"Hollywood",
-      holly_img:"https://www.imdb.com/title/tt1464335/mediaviewer/rm180740097/?ref_=tt_ov_i",
-      name:"Uncharted",
-      story:"Street-smart Nathan Drake is recruited by seasoned treasure hunter Victor Sully Sullivan to recover a fortune amassed by Ferdinand Magellan, and lost 500 years ago by the House of Moncada."
+      holly_img:"https://www.hollywoodreporter.com/wp-content/uploads/2016/02/things_to_come.jpg?w=1024",
+      name:"Things to Come",
+      story:"Up until her quietly heartbreaking fifth feature, French director Mia Hansen-Love was something of a specialist in stories about young people experiencing life-changing events, whether breakups, the deaths of loved ones or careers cut short by failure. In Things to Come, she tackles the same themes from the perspective of a much older character, and the result finds her reaching an impressive new level of maturity."
     },
     {
       id:22,
       cat:"Hollywood",
-      holly_img:"https://www.91-cdn.com/metareel-images/content/posters-7-1683633543849-tunkzmPqpxqK24MxqrrEf9mC53r.jpg?tr=h-350,q-40&version=5",
-      name:"The Black Demon ",
-      story:"During an idyllic family vacation, oilman Paul Sturges and his loved ones face a perilous situation when they encounter a massive megalodon shark. With no means of escape, they must find a way to survive and return to safety before the shark attacks again"
+      holly_img:"https://www.hollywoodreporter.com/wp-content/uploads/2023/03/43.-Grizzly-Man-MCDGRMA_EC001-H-2023.jpg?w=1024",
+      name:"Grizzly Man",
+      story:"Werner Herzog has always insisted there’s no real difference between his documentary and fiction films. His subject in Grizzly Man, one of his greatest works, is environmental activist Timothy Treadwell — and indeed, he is as much a profoundly flawed, charismatic dreamer as the protagonists Klaus Kinski played in Herzog’s features Fitzcarraldo and Aguirre, the Wrath of God."
     },
     {
       id:23,
       cat:"Hollywood",
-      holly_img:"https://www.91-cdn.com/metareel-images/content/posters-7-1694234148154-kGENInUWI9tRVg4ae8XAVgAWpEi.jpg?tr=h-350,q-40&version=5",
-      name:"Sitting In Bars With Cake",
-      story:"Corinne urges her baker friend Jane to work for a year baking cakes, in the hopes of brushing up her skills, and then distributing them at bars in order to gain confidence and make new friends."
+      holly_img:"https://www.hollywoodreporter.com/wp-content/uploads/2023/03/42.-Never-Rarely-Sometimes-Always-MCDNERA_UC003-H-2023.jpg?w=1024",
+      name:"Never Rarely Sometimes Always",
+      story:"The pandemic shutdown hobbled the theatrical release of Eliza Hittman’s third feature but not its artistic impact — confirming the writer-director as a major talent in American independent cinema. Tracing a Pennsylvania teen’s odyssey through the bustle and cacophony of New York to end an unwanted pregnancy, the film is steeped in a naturalism that’s low-key yet electrifying. "
     },
     {
       id:24,
       cat:"Hollywood",
-      holly_img:"https://www.91-cdn.com/metareel-images/content/posters-7-1687459933276-yVgtsoXyTZBww7SWE4JE1U4Wcel.jpg?tr=h-350,q-40&version=5",
-      name:"Champions",
-      story:"A court orders a former lower-level basketball coach to manage a team of players with intellectual disability. Even though he is sceptical at first, he eventually realises that they can accomplish more together than they expected."
+      holly_img:"https://www.hollywoodreporter.com/wp-content/uploads/2023/03/41.-Pans-Labyrinth-MCDPALA_EC009-H-2023.jpg?w=1024",
+      name:"Pan’s Labyrinth",
+      story:"A filmmaker of limitless imagination, Guillermo del Toro took the exciting marriage of fantasy and political allegory in The Devil’s Backbone several steps further with this tonally audacious and visually beguiling dark fairy tale set soon after the Spanish Civil War, during the early days of the brutal Franco regime."
     },
     {
       id:25,
       cat:"Hollywood",
-      holly_img:"https://www.91-cdn.com/metareel-images/content/posters-7-1694666048147-y8NtM6q3PzntqyNRNw6wgicwRYl.jpg?tr=h-350,q-40&version=5",
-      name:"Carl's Date",
-      story:" Carls Date revolves around the life of Carl Fredricksen, who, after his wifes death, finally goes on his first date after many years, not knowing how dating works in today world."
+      holly_img:"https://www.hollywoodreporter.com/wp-content/uploads/2023/03/40.-Summer-of-Soul-MCDSUOF_H4002-H-2023.jpg?w=1024",
+      name:"Summer of Soul",
+      story:"Do you remember the Harlem Cultural Festival?” For most Americans, the answer to the question posed by Questlove at the start of his vital and intoxicating documentary would probably be no. Dexterously edited by Joshua L. Pearson, Summer of Soul isn’t just a concert film about “Black Woodstock.” It’s a paean to American music culture,"
     },
     {
       id:26,
       cat:"Hollywood",
-      holly_img:"https://www.91-cdn.com/metareel-images/content/posters-1694507267-dwfKVkcBhfCawQXk9yDaVZ68cQ0.jpg?tr=h-350,q-40&version=5",
-      name:"Behind The Scenes ",
-      story:"Dive into the new Star Wars master-apprentice legacy with the cast and filmmakers of Ahsoka."
+      holly_img:"https://www.hollywoodreporter.com/wp-content/uploads/2016/08/i_am_not_your_negro_still_1_h_2016.jpg?w=1024",
+      name:"I Am Not Your Negro",
+      story:"any great documentaries have been released since the turn of this century, but none has shaken the rafters and shibboleths of political discourse with such potency as Raoul Peck’s searing film. A crucial contribution to the rediscovery of James Baldwin, a writer of blistering clarity and prescience,"
     },
     {
       id:27,
       cat:"Hollywood",
-      holly_img:"https://www.91-cdn.com/metareel-images/content/posters-7-1683634067773-zi0Lrmtvhrz52VXUjwEKlXItF9q.jpg?tr=h-350,q-40&version=5",
-      name:"Mafia Mamma ",
-      story:"In this hilarious tale, a suburban mom inherits her Italian mafia dynasty from her parents, defying expectations with humor and navigating a deadly mob battle with the help of a trustworthy advisor."
+      holly_img:"https://www.hollywoodreporter.com/wp-content/uploads/2023/03/38.-Children-of-Men-MCDCHOF_EC210-H-2023.jpg?w=1024",
+      name:"Children of Men",
+      story:"Dystopian sci-fi has become one of 21st century cinema’s most over-trafficked subgenres, but Alfonso Cuarón’s disturbing entrenchment in a war-torn fascist future where humanity’s fate hangs in the balance is striking because the world he so vividly creates is all but indistinguishable from our own. Peppered with technically dazzling set pieces and startling images that represent the redoubtable Mexican director’s"
     },
     {
       id:28,
       cat:"Hollywood",
-      holly_img:"https://www.91-cdn.com/metareel-images/content/posters-1692688114-uS0KGgkF9krrUqh8tdo80THBliH.jpg?tr=h-350,q-40&version=5",
-      name:"Scout's Honor",
-      story:"Scout's Honour: The Boy Scouts of America's Hidden Records will tell the stories of survivors, informants, and professionals who investigate into the sexual harassment incidents covered up by the organization, thereby revealing the terrible impact on the victims."
+      holly_img:"https://www.hollywoodreporter.com/wp-content/uploads/2023/03/37.-Wendy-and-Lucy-MCDWEAN_EC002-H-2023.jpg?w=1024",
+      name:"Wendy and Lucy",
+      story:"Persuasive arguments could have been made for other post-2000 Kelly Reichardt works, like Old Joy and First Cow, which might be considered companion-piece reflections on male friendship. But we settled on this fine-grained portrait of an American underclass drifter as the perfect distillation of the director’s slow-cinema austerity, her intimate gauge of character and indelible sense of place."
     },
     {
       id:29,
       cat:"Hollywood",
-      holly_img:"https://www.91-cdn.com/metareel-images/content/posters-7-1687326224481-pvx7TwLXVDKD4jbDeAQ7w459zIY.jpg?tr=h-350,q-40&version=5",
-      name:"The Inspection",
-      story:"In a bid to overcome adversity and gain acceptance, a young, gay Black man enlists in the Marines, confronting prejudice and enduring intense training. Through unexpected bonds and support, he discovers a newfound sense of belonging, shaping his identity and transforming his life forever."
+      holly_img:"https://www.hollywoodreporter.com/wp-content/uploads/2023/03/35.-Lovers-Rock-TCDSMAX_ZU042-H-2023.jpg?w=1024",
+      name:"Lovers Rock",
+      story:"The best of the five films in Steve McQueen’s Small Axe series, Lovers Rock pulses with pleasure, proving that the skilled British director doesn’t only peddle in austere and muscular depictions of brutality. Contrary to his Oscar-winning 12 Years a Slave or genre foray Widows, this film is loose, limber and animated by an intangible joyousness. The romance between Martha (Amarah-Jae St. Aubyn) and Franklyn (Micheal Ward) unfurls over the course of a balmy London night in the 1980s, beginning on the dance floor of a house party"
     },
     {
       id:30,
       cat:"Hollywood",
-      holly_img:"https://www.91-cdn.com/metareel-images/content/posters-7-1690415777119-Af4bXE63pVsb2FtbW8uYIyPBadD.jpg?tr=h-350,q-40&version=5",
-      name:"Indiana Jones 5",
-      story:"In his quest to retrieve a famous artifact, renowned archaeologist Indiana Jones races against time, a dial of immense power capable of altering history itself. Indy, assisted by his goddaughter comes face to face powerful opponents"
+      holly_img:"https://www.hollywoodreporter.com/wp-content/uploads/2023/03/32.-The-Favourite-MCDFAVO_FS030-H-2023.jpg?w=1024",
+      name:"The Favourite",
+      story:"With his gift for combining pathos, acid comedy and absurdism, writer-director Yorgos Lanthimos has made a few of the great art house originals this century. The Favourite is his most accessible, but also arguably the richest in feeling and most dazzlingly performed, as well as chock-full of cruel ironies and caustic wit. Olivia Colman won an Oscar for her brilliant portrayal of Queen Anne (1665-1714), "
     },
     
     {
@@ -391,6 +391,7 @@ export const Storing = (props) => {
       story:"Fried rice (炒饭 chǎofàn) is a dish made from fried cooked rice and other ingredients, often including eggs, vegetables, seafood, or meat. Fried rice is one of the most common Chinese foods. It is easy to make fried rice at home using leftover rice and other meat or vegetables from the last meal."
     },
     {
+
       id:56,
       cat:"Food",
       Food_img:"https://images.chinahighlights.com/allpicture/2021/12/8189b6d0265149138f394b89_cut_750x400_39.webp",
@@ -456,78 +457,78 @@ export const Storing = (props) => {
     {
       id:65,
       cat:"fitness",
-      fit_img:"",
-      name:"",
-      story:""
+      fit_img:"https://hips.hearstapps.com/hmg-prod/images/strong-man-is-doing-cross-training-exercise-royalty-free-image-1667492535.jpg?resize=980:*",
+      name:"Chest and Back Workout ",
+      story:"The chest-and-back superset session is one of your best training options. It's grueling and challenging, but it will leave your entire upper body with a vicious pump, and insure that you're hitting all critical upper body muscles."
     },
     {
       id:66,
       cat:"fitness",
-      fit_img:"",
-      name:"",
-      story:""
+      fit_img:"https://hips.hearstapps.com/hmg-prod/images/building-his-muscles-royalty-free-image-1694715299.jpg?resize=980:*",
+      name:"Pullup",
+      story:"There’s only one catch: The pullup is one of the most challenging exercises to master—a reason it commands so much respect among trainers. The average guy can only do two at a time, and you should be able to perform at least six in a row before you start doing sets."
     },
     {
       id:67,
       cat:"fitness",
-      fit_img:"",
-      name:"",
-      story:""
+      fit_img:"https://hips.hearstapps.com/hmg-prod/images/exhausted-young-man-in-gym-having-a-break-royalty-free-image-1694637298.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+      name:"Workout",
+      story:"THE IDEA THAT you need a “no days off” mentality to accomplish your fitness goals is an antiquated concept of old-school gym culture as useful these days as a rusty barbell. You can try to use it, but you'll probably wind up getting hurt after too many reps."
     },
     {
       id:68,
       cat:"fitness",
-      fit_img:"",
-      name:"",
-      story:""
+      fit_img:"https://media.bleacherreport.com/w_800,h_533,c_fill/br-img-images/003/006/567/a2704b73b21defc73d1b5e621eb3c253_crop_north.jpg",
+      name:"Cristiano Ronaldo",
+      story:"Sports Illustrated put together a list that ranked the 50 fittest athletes in sports. It rated athletes on speed, strength, agility and endurance. Each category was based on a scale of 0-10, so a perfect score would be 40."
     },
     {
       id:69,
       cat:"fitness",
-      fit_img:"",
-      name:"",
-      story:""
+      fit_img:"https://media.istockphoto.com/id/1215073413/photo/woman-vlogging-about-healthy-eaating.webp?s=1024x1024&w=is&k=20&c=1uciw6KHIK69wrGSgpcfknb8wE8j_aqWZK7MwYcEAaE=",
+      name:"Diet",
+      story:"Young and cheerful woman vlogging on mobile phone about healthy food and cooking. Concept of healthy eating and social media influencing."
     },
     {
       id:70,
       cat:"fitness",
-      fit_img:"",
-      name:"",
-      story:""
+      fit_img:"https://static.india.com/wp-content/uploads/2016/11/Vidyut-Jamwal.jpg",
+      name:"Vidyut Jamwal",
+      story:"Trained in Kalaripayattu, a form of martial art, Vidyut Jamwal made an impression with his debut movie, Force. The actor is a fitness freak and loves working out."
     },
     {
       id:71,
       cat:"fitness",
-      fit_img:"",
-      name:"",
-      story:""
+      fit_img:"https://static.india.com/wp-content/uploads/2016/11/Aamir-Khan-1.jpg",
+      name:"Aamir Khan",
+      story:"Aamir Khan amazed us with his transformation in Gajini. The Mr Perfectionist then trained for around nine months to get the toned look for Dhoom 3 and now, in the upcoming film Dangal"
     },
     {
       id:72,
       cat:"fitness",
-      fit_img:"",
-      name:"",
-      story:""
+      fit_img:"https://www.mensjournal.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_760/MTk2MTM3MjYwMDQ0NTkyMjcz/6-pullover.webp",
+      name:"Pullover",
+      story:"Not only is it an effective triceps exercise, the dumbbell pullover improves strength and coordination between the triceps and the muscles of your upper back. It also works the lats and is great at strengthening your core."
     },
     {
       id:73,
       cat:"fitness",
-      fit_img:"",
-      name:"",
-      story:""
+      fit_img:"https://www.mensjournal.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_760/MTk3Mzg4NzI3MzQzOTgxNTc0/chaturanga_justinsteele.webp",
+      name:"Chaturanga",
+      story:"This signature yoga move challenges you to support your entire body with your triceps."
     },
     {
       id:74,
       cat:"fitness",
-      fit_img:"",
-      name:"",
-      story:""
+      fit_img:"https://www.mensjournal.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_760/MTk3Mzg4NzI3MzQzOTgyNDkx/overheadtricepsextension.webp",
+      name:"triceps workouts",
+      story:"Sometimes you've got to trash your triceps (in the best way) to stimulate new levels of growth in your arms. In order to do so, you need to incorporate the best triceps workouts and exercises."
     },
     {
       id:75,
       cat:"fitness",
       fit_img:"",
-      name:"",
+      name:"Arm circles",
       story:""
     }
      
