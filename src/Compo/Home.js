@@ -1,58 +1,36 @@
-import React, { useContext } from 'react'
+import React, { useContext} from 'react'
 import { Store } from '../ContextStore/Storing';
 import "./Style1/Style1.css"
+import { Link } from 'react-router-dom';
 const Home = () => {
   const [dataContext]=useContext(Store);
   console.log(dataContext)
+ 
   
   return (
     <>
-    <div id='top-img'>
-      {dataContext.filter((item)=>item.id===4).map((item,index)=>{
-        return(<>
-        <img src={item.bolly_img} alt='not found'/>
-        
-        </>)
-      })}
-    </div>
-    <div id='top-img'>
-      {dataContext.filter((item)=>item.id===5).map((item,index)=>{
-        return(<>
-        <img src={item.bolly_img} alt='not found'/>
-        
-        </>)
-      })}
-    </div>
-    <div id='top-img'>
-      {dataContext.filter((item)=>item.id===6).map((item,index)=>{
-        return(<>
-        <img src={item.bolly_img} alt='not found'/>
-        
-        </>)
-      })}
-    </div>
      
 <h3 id='the-latest'>The Latest</h3>
 <div id='latest-home'>
  
   <div id='latest-item'>
-    {dataContext.filter((item)=>item.id===49).map((item,index)=>{
+    {dataContext.filter((item)=>item.id===35).map((item,index)=>{
       return(
-        <>
-       
-        <img src={item.Food_img} alt='not there' id='thelatest-img'/>
-        <h4>{item.name}</h4>
+        <div key={index}>
+         <Link to={`/details/${item.id}`}>
+        <img src={item.tech_img} alt='not there' id='thelatest-img'/>
+        <h4 >{item.name}</h4> </Link>
         <p>{item.story.slice(0,159)}....</p>
-        </>
+        </div>
       )
     })} 
 </div>
 <div id='latest-item'>
-{dataContext.filter((item)=>item.id===50).map((item,index)=>{
+{dataContext.filter((item)=>item.id===17).map((item,index)=>{
       return(
         <>
         
-        <img src={item.Food_img} alt='not there' id='thelatest-img'/>
+        <img src={item.Holly_img} alt='not there' id='thelatest-img'/>
         <h4>{item.name}</h4>
         <p>{item.story.slice(0,159)}....</p>
         </>
@@ -78,10 +56,10 @@ const Home = () => {
 <h3 id='top-stories'>Top Stories</h3>
 <div id='bottom-homepage'>
 <div id='bottom-item'>
-{dataContext.filter((item)=>item.id===52).map((item,index)=>{
+{dataContext.filter((item)=>item.id===19).map((item,index)=>{
   return(
     <>
-    <img src={item.Food_img} alt='not there'  id='bottom-img' />
+    <img src={item.holly_img} alt='not there'  id='bottom-img' />
     <h3>{item.name}</h3>
     <p>{item.story.slice(0,159)}..........</p>
     
@@ -226,8 +204,7 @@ const Home = () => {
 
 <div id="advertise"><h1>Advertisement</h1></div>
 
-
-  return(      
+      
 <div id='footer'>
   <div id='footer-item'>
     <h3>Contact Us</h3>
@@ -246,7 +223,7 @@ const Home = () => {
     <h3>Contact📞☎
     </h3>
   </div>
-</div>)
+</div>
 
     
     </>
