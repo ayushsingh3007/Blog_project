@@ -18,7 +18,7 @@ const Home= () => {
       return(
         <div key={index}>
          <Link to={`/details/${item.id}/${item.cat}`} id='link'>
-        <img src={item.img} alt='not there' id='thelatest-img'/>
+        <img src={item.img} alt='not there'  height="220rem"  id='thelatest-img'/>
         <h4 >{item.name}</h4> </Link>
         <p>{item.story.slice(0,159)}....</p>
         </div>
