@@ -1,15 +1,11 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext} from 'react'
 import { Store } from '../ContextStore/Storing';
 import "./Style/Style.css"
 import { Link } from 'react-router-dom';
 const Food = () => {
   const [dataContext]=useContext(Store);
   console.log(dataContext)
-  const [selectedItem, setSelectedItem] =useState();
-   console.log(selectedItem)
-  const handleItemClick = (item) => {
-    setSelectedItem(item);
-  }
+ 
   
   return (
     <>
@@ -21,9 +17,9 @@ const Food = () => {
     {dataContext.filter((item)=>item.id===49).map((item,index)=>{
       return(
         <div key={index}>
-         <Link to={`/details/${item.id}`}>
-        <img src={item.Food_img} alt='not there' id='thelatest-img'/>
-        <h4 onClick={() => handleItemClick(item)}>{item.name}</h4> </Link>
+         <Link to={`/details/${item.id}/${item.cat}`} id='link'>
+        <img src={item.img} alt='not there' id='thelatest-img'/>
+        <h4 >{item.name}</h4> </Link>
         <p>{item.story.slice(0,159)}....</p>
         </div>
       )
@@ -33,9 +29,10 @@ const Food = () => {
 {dataContext.filter((item)=>item.id===50).map((item,index)=>{
       return(
         <>
-        
-        <img src={item.Food_img} alt='not there' id='thelatest-img'/>
+        <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+        <img src={item.img} alt='not there' id='thelatest-img'/>
         <h4>{item.name}</h4>
+        </Link>
         <p>{item.story.slice(0,159)}....</p>
         </>
       )
@@ -47,9 +44,10 @@ const Food = () => {
     {dataContext.filter((item)=>item.id===51).map((item,index)=>{
       return(
       
-    <>
-        <img src={item.Food_img} alt='not there' id='thelatest-img'/>
-        <h4>{item.name}</h4>
+    <>  
+    <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+        <img src={item.img} alt='not there' id='thelatest-img'/>
+        <h4>{item.name}</h4></Link>
         <p>{item.story.slice(0,159)}..........</p>
       </>  
       )
@@ -63,8 +61,10 @@ const Food = () => {
 {dataContext.filter((item)=>item.id===52).map((item,index)=>{
   return(
     <>
-    <img src={item.Food_img} alt='not there'  id='bottom-img' />
+    <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+    <img src={item.img} alt='not there'  id='bottom-img' />
     <h3>{item.name}</h3>
+    </Link>
     <p>{item.story.slice(0,159)}..........</p>
     
     </>
@@ -77,8 +77,10 @@ const Food = () => {
 {dataContext.filter((item)=>item.id===53).map((item,index)=>{
   return(
     <>
-    <img src={item.Food_img} alt='not there'  id='bottom-img'/>
+    <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+    <img src={item.img} alt='not there'  id='bottom-img'/>
     <h3>{item.name}</h3>
+    </Link>
     <p>{item.story.slice(0,159)}..........</p>
     
     </>
@@ -92,8 +94,9 @@ const Food = () => {
   {dataContext.filter((item)=>item.id===46).map((item,index)=>{
     return(
     <>
-    <img src={item.Food_img} alt='not there'  id='bottom-img'/>
-    <h3>{item.name}</h3>
+    <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+    <img src={item.img} alt='not there'  id='bottom-img'/>
+    <h3>{item.name}</h3></Link>
     <span>{item.story.slice(0,159)}..........</span>
     
     </>)
@@ -103,8 +106,10 @@ const Food = () => {
   {dataContext.filter((item)=>item.id===60).map((item,index)=>{
     return(
     <>
-    <img src={item.Food_img} alt='not there'  id='bottom-img'/>
+    <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+    <img src={item.img} alt='not there'  id='bottom-img'/>
     <h3>{item.name}</h3>
+    </Link>
     <span>{item.story.slice(0,159)}..........</span>
     
     </>)
@@ -114,9 +119,10 @@ const Food = () => {
   {dataContext.filter((item)=>item.id===56).map((item,index)=>{
     return(
     <>
-    <img src={item.Food_img} alt='not there'  id='bottom-img'/>
+    <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+    <img src={item.img} alt='not there'  id='bottom-img'/>
     <h3>{item.name}</h3>
-    
+    </Link>
     <span>{item.story.slice(0,159)}..........</span>
     
     </>)
@@ -126,8 +132,10 @@ const Food = () => {
   {dataContext.filter((item)=>item.id===48).map((item,index)=>{
     return(
     <>
-    <img src={item.Food_img} alt='not there'  id='bottom-img'/>
+    <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+    <img src={item.img} alt='not there'  id='bottom-img'/>
     <h3>{item.name}</h3>
+    </Link>
     <span>{item.story.slice(0,159)}..........</span>
     
     </>)
@@ -138,8 +146,10 @@ const Food = () => {
   {dataContext.filter((item)=>item.id===47).map((item,index)=>{
     return(
     <>
-    <img src={item.Food_img} alt='not there'  id='bottom-img'/>
+    <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+    <img src={item.img} alt='not there'  id='bottom-img'/>
     <h3>{item.name}</h3>
+    </Link>
     <span>{item.story.slice(0,159)}..........</span>
     
     </>)
@@ -168,8 +178,10 @@ const Food = () => {
     {dataContext.filter((item)=>item.id===60).map((item,index)=>{
       return(
       <>
-      <img src={item.Food_img} alt='not found'  id='img-right-bottom'/>
+      <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+      <img src={item.img} alt='not found'  id='img-right-bottom'/>
       <h3>{item.name}</h3>
+      </Link>
       <p>{item.story.slice(0,90)}.....</p>
       <h1 id='number' >1</h1>
 
@@ -180,8 +192,10 @@ const Food = () => {
     {dataContext.filter((item)=>item.id===47).map((item,index)=>{
       return(
       <>
-      <img src={item.Food_img} alt='not found' id='img-right-bottom'/>
+      <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+      <img src={item.img} alt='not found' id='img-right-bottom'/>
       <h3>{item.name}</h3>
+      </Link>
       <p>{item.story.slice(0,90)}.....</p>
       <h1 id='number-2' >2</h1>
 
@@ -192,8 +206,10 @@ const Food = () => {
     {dataContext.filter((item)=>item.id===49).map((item,index)=>{
       return(
       <>
-      <img src={item.Food_img} alt='not found'  id='img-right-bottom'/>
+      <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+      <img src={item.img} alt='not found'  id='img-right-bottom'/>
       <h3>{item.name}</h3>
+      </Link>
       <p>{item.story.slice(0,90)}.....</p>
       <h1 id='number-3' >3</h1>
 
@@ -217,9 +233,9 @@ const Food = () => {
     <p>support@134</p>
 
   </div>
-  <div id='footer-item'>
+  <div id='item-2-footer'>
     <h3>Our Mission</h3>
-    <p>We are non profit association provided a good quality of education and give the correct direction to your carrer.....</p>
+    <h6>We are non profit association provided a good quality of education and give the correct direction </h6>
   </div>
   <div id='footer-item'>
   <h3>SUPPORT</h3>
