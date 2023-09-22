@@ -365,11 +365,12 @@
       offset-position: initial;
       box-sizing: content-box;
       align-content: space-evenly;
+      text-align: center;
     
     }
     #bottom-img{
       float: left;
-      width:22rem;
+      width:25rem;
     }
     #top-post{
       position:absolute;
@@ -580,7 +581,7 @@
      border-bottom: 3px solid gray;
       offset-position: initial;
       box-sizing: content-box;
-      
+    
     
     }
     #bottom-img{
@@ -954,8 +955,8 @@
     }
     body{
       background-color: whitesmoke;
-      width: 100vw;
-      height: 100vh;
+      /* width: 100vw;
+      height: 100vh; */
       overflow-x: hidden;
       font-size: large;
       font-weight: lighter;
@@ -1011,7 +1012,7 @@
     width: 16vw;
     border-bottom: 3px solid red;
     position:absolute;
-    top:10%;
+    top:20%;
     left: 4%;
     
     
@@ -1040,14 +1041,14 @@
       justify-content: space-evenly;
       margin-top: 25%;
       position:absolute;
-      top: 36%;
+      top: 56%;
       left: 2%;
     
       offset: inherit;
     }
     #top-stories{
       position: absolute;
-      top:70%;
+      top:90%;
       left: 2%;
       border-bottom: 3px solid red;
     }
@@ -1061,6 +1062,7 @@
       offset-position: initial;
       box-sizing: content-box;
       align-content: space-around;
+      text-align: center;
     
     }
     #bottom-img{
@@ -1098,6 +1100,7 @@
       height: 20vh;
       float: left;
       content: unset;
+      text-align: center;
     }
     #number{
     
@@ -1211,6 +1214,7 @@
       flex-wrap: wrap;
       flex-direction:column;
       padding-top: 1%;
+      padding-left:20px ;
       
       box-sizing: border-box;
       align-items: center;
@@ -1260,6 +1264,8 @@
     #latest-item{
       width:30vw;
       height: 20vh;
+      word-spacing: 2%;
+      
     }
      
     #bottom-homepage{
@@ -1292,11 +1298,19 @@
       offset-position: initial;
       box-sizing: content-box;
       align-content: space-around;
+      gap: 1%;
+      text-align: center;
     
+
     }
+#vottom-para{
+  margin-left: 40px;
+}
+
+
     #bottom-img{
       float: left;
-      width: 30%;
+      width: 29%;
     }
     #top-post{
       position:absolute;
@@ -1316,7 +1330,7 @@
       display: flex;
       flex-direction:column;
       justify-content: space-evenly;
-    
+   
     
       contain: content;
     
@@ -1329,6 +1343,8 @@
       height: 20vh;
       float: left;
       content: unset;
+      text-align: center;
+      
     }
     #number{
     
@@ -1407,3 +1423,4 @@
       line-height: 30px;
     }
   }
+  
