@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { Store } from '../ContextStore/Storing';
 import "./Style/Style.css"
+import { Link } from 'react-router-dom';
 function Bollywood() {
     const [dataContext]=useContext(Store);
     console.log(dataContext);
@@ -17,9 +18,10 @@ function Bollywood() {
     {dataContext.filter((item)=>item.id===1).map((item,index)=>{
       return(
         <>
-       
-        <img src={item.bolly_img} alt='not there' id='thelatest-img'/>
+       <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+        <img src={item.img} alt='not there' id='thelatest-img'/>
         <h4>{item.name}</h4>
+        </Link>
         <p>{item.story.slice(0,159)}....</p>
         </>
       )
@@ -29,9 +31,10 @@ function Bollywood() {
 {dataContext.filter((item)=>item.id===2).map((item,index)=>{
       return(
         <>
-        
-        <img src={item.bolly_img} alt='not there' id='thelatest-img'/>
+        <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+        <img src={item.img} alt='not there' id='thelatest-img'/>
         <h4>{item.name}</h4>
+        </Link>
         <p>{item.story.slice(0,159)}....</p>
         </>
       )
@@ -44,8 +47,10 @@ function Bollywood() {
       return(
       
     <>
-        <img src={item.bolly_img} alt='not there' id='thelatest-img'/>
+    <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+        <img src={item.img} alt='not there' id='thelatest-img'/>
         <h4>{item.name}</h4>
+        </Link>
         <p>{item.story.slice(0,159)}..........</p>
       </>  
       )
@@ -59,8 +64,10 @@ function Bollywood() {
 {dataContext.filter((item)=>item.id===2).map((item,index)=>{
   return(
     <>
-    <img src={item.bolly_img} alt='not there'  id='bottom-img' />
+    <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+    <img src={item.img} alt='not there'  id='bottom-img' />
     <h3>{item.name}</h3>
+    </Link>
     <p>{item.story.slice(0,159)}..........</p>
     
     </>
@@ -73,8 +80,10 @@ function Bollywood() {
 {dataContext.filter((item)=>item.id===4).map((item,index)=>{
   return(
     <>
-    <img src={item.bolly_img} alt='not there'  id='bottom-img'/>
+    <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+    <img src={item.img} alt='not there'  id='bottom-img'/>
     <h3>{item.name}</h3>
+    </Link>
     <p>{item.story.slice(0,159)}..........</p>
     
     </>
@@ -88,8 +97,10 @@ function Bollywood() {
   {dataContext.filter((item)=>item.id===5).map((item,index)=>{
     return(
     <>
-    <img src={item.bolly_img} alt='not there'  id='bottom-img'/>
+    <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+    <img src={item.img} alt='not there'  id='bottom-img'/>
     <h3>{item.name}</h3>
+    </Link>
     <span>{item.story.slice(0,159)}..........</span>
     
     </>)
@@ -99,8 +110,10 @@ function Bollywood() {
   {dataContext.filter((item)=>item.id===6).map((item,index)=>{
     return(
     <>
-    <img src={item.bolly_img} alt='not there'  id='bottom-img'/>
+    <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+    <img src={item.img} alt='not there'  id='bottom-img'/>
     <h3>{item.name}</h3>
+    </Link>
     <span>{item.story.slice(0,159)}..........</span>
     
     </>)
@@ -110,8 +123,10 @@ function Bollywood() {
   {dataContext.filter((item)=>item.id===7).map((item,index)=>{
     return(
     <>
-    <img src={item.bolly_img} alt='not there'  id='bottom-img'/>
+    <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+    <img src={item.img} alt='not there'  id='bottom-img'/>
     <h3>{item.name}</h3>
+    </Link>
     
     <span>{item.story.slice(0,159)}..........</span>
     
@@ -122,8 +137,10 @@ function Bollywood() {
   {dataContext.filter((item)=>item.id===5).map((item,index)=>{
     return(
     <>
-    <img src={item.bolly_img} alt='not there'  id='bottom-img'/>
+    <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+    <img src={item.img} alt='not there'  id='bottom-img'/>
     <h3>{item.name}</h3>
+    </Link>
     <span>{item.story.slice(0,159)}..........</span>
     
     </>)
@@ -133,9 +150,10 @@ function Bollywood() {
 <div id='bottom-item'>
   {dataContext.filter((item)=>item.id===13).map((item,index)=>{
     return(
-    <>
-    <img src={item.bolly_img} alt='not there'  id='bottom-img'/>
+    <><Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+    <img src={item.img} alt='not there'  id='bottom-img'/>
     <h3>{item.name}</h3>
+    </Link>
     <span>{item.story.slice(0,159)}..........</span>
     
     </>)
@@ -163,9 +181,10 @@ function Bollywood() {
    <div id="rigth-bottom-item-1">
     {dataContext.filter((item)=>item.id===10).map((item,index)=>{
       return(
-      <>
-      <img src={item.bolly_img} alt='not found'  id='img-right-bottom'/>
+      <><Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+      <img src={item.img} alt='not found'  id='img-right-bottom'/>
       <h3>{item.name}</h3>
+      </Link>
       <p>{item.story.slice(0,90)}.....</p>
       <h1 id='number' >1</h1>
 
@@ -175,9 +194,11 @@ function Bollywood() {
    <div id="rigth-bottom-item-1">
     {dataContext.filter((item)=>item.id===11).map((item,index)=>{
       return(
-      <>
-      <img src={item.bolly_img} alt='not found' id='img-right-bottom'/>
+      <><Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+
+      <img src={item.img} alt='not found' id='img-right-bottom'/>
       <h3>{item.name}</h3>
+      </Link>
       <p>{item.story.slice(0,90)}.....</p>
       <h1 id='number-2' >2</h1>
 
@@ -188,8 +209,10 @@ function Bollywood() {
     {dataContext.filter((item)=>item.id===12).map((item,index)=>{
       return(
       <>
-      <img src={item.bolly_img} alt='not found'  id='img-right-bottom'/>
+      <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+      <img src={item.img} alt='not found'  id='img-right-bottom'/>
       <h3>{item.name}</h3>
+      </Link>
       <p>{item.story.slice(0,90)}.....</p>
       <h1 id='number-3' >3</h1>
 
@@ -205,7 +228,7 @@ function Bollywood() {
 <div id="advertise"><h1>Advertisement</h1></div>
 
 
-return(      
+      
 <div id='footer'>
   <div id='footer-item'>
     <h3>Contact Us</h3>
@@ -224,7 +247,7 @@ return(
     <h3>Contact📞☎
     </h3>
   </div>
-</div>)     
+</div>    
 
 
     
