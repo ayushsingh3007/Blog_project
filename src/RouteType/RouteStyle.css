@@ -1,6 +1,7 @@
-/* Navbar.css */
+
 
 .navbar-set {
+ 
   display: flex;
   background-color: #333;
   padding: 10px;
@@ -17,7 +18,9 @@
 
 .menu-links {
   display: flex;
-}
+  justify-content: center;
+  margin: auto;
+  align-items: center;}
 
 .link {
   text-decoration: none;
@@ -35,19 +38,19 @@
     flex-direction: column;
     position: absolute;
     background-color: #333;
-    width: 100%;
     top: 60px;
-    left: 0;
-    text-align: center;
+    text-align: center; 
     z-index: 1;
+    width: 100%;
   }
 
   .menu-links.open {
     display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the links vertically */
   }
 
   .link {
-    width: 100%;
     padding: 15px 0;
     border-bottom: 1px solid #555;
   }
