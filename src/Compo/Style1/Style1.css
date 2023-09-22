@@ -316,7 +316,7 @@
       top: 20%;
       
       
-      width: 100vw;
+      width: 66vw;
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
@@ -336,7 +336,7 @@
     }
      
     #bottom-homepage{
-      width: 100vw;
+      width: 89vw;
       height:330vh;
       contain: content;
       display: flex;
@@ -384,7 +384,7 @@
     position: absolute;
     top: 500%;
     left: 2%;
-      width: 100vw;
+      width: 95vw;
       height: 110vh;
       display: flex;
       flex-direction:column;
