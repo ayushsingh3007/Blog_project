@@ -14,7 +14,7 @@ const Home= () => {
 <div id='latest-home'>
  
   <div id='latest-item'>
-    {dataContext.filter((item)=>item.id===49).map((item,index)=>{
+    {dataContext.filter((item)=>item.id===4).map((item,index)=>{
       return(
         <div key={index}>
          <Link to={`/details/${item.id}/${item.cat}`} id='link'>
@@ -26,7 +26,7 @@ const Home= () => {
     })} 
 </div>
 <div id='latest-item'>
-{dataContext.filter((item)=>item.id===50).map((item,index)=>{
+{dataContext.filter((item)=>item.id===17).map((item,index)=>{
       return(
         <>
         <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
@@ -41,7 +41,7 @@ const Home= () => {
 
     <div id='latest-item'>
 
-    {dataContext.filter((item)=>item.id===51).map((item,index)=>{
+    {dataContext.filter((item)=>item.id===31).map((item,index)=>{
       return(
       
     <>  
@@ -74,7 +74,7 @@ const Home= () => {
 })}
 </div>
 <div id="bottom-item">
-{dataContext.filter((item)=>item.id===53).map((item,index)=>{
+{dataContext.filter((item)=>item.id===63).map((item,index)=>{
   return(
     <>
     <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
@@ -91,7 +91,7 @@ const Home= () => {
 </div>
 
 <div id='bottom-item'>
-  {dataContext.filter((item)=>item.id===46).map((item,index)=>{
+  {dataContext.filter((item)=>item.id===69).map((item,index)=>{
     return(
     <>
     <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
@@ -103,7 +103,7 @@ const Home= () => {
   })}
 </div>
 <div id='bottom-item'>
-  {dataContext.filter((item)=>item.id===60).map((item,index)=>{
+  {dataContext.filter((item)=>item.id===30).map((item,index)=>{
     return(
     <>
     <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
@@ -116,7 +116,7 @@ const Home= () => {
   })}
 </div>
 <div id='bottom-item'>
-  {dataContext.filter((item)=>item.id===56).map((item,index)=>{
+  {dataContext.filter((item)=>item.id===46).map((item,index)=>{
     return(
     <>
     <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
@@ -129,7 +129,7 @@ const Home= () => {
   })}
 </div>
 <div id='bottom-item'>
-  {dataContext.filter((item)=>item.id===48).map((item,index)=>{
+  {dataContext.filter((item)=>item.id===41).map((item,index)=>{
     return(
     <>
     <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
@@ -143,7 +143,7 @@ const Home= () => {
 </div>
 
 <div id='bottom-item'>
-  {dataContext.filter((item)=>item.id===47).map((item,index)=>{
+  {dataContext.filter((item)=>item.id===17).map((item,index)=>{
     return(
     <>
     <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
@@ -175,7 +175,7 @@ const Home= () => {
 <h3 id='top-post'>Top Posts</h3>
 <div id='bottom-right'>
    <div id="rigth-bottom-item-1">
-    {dataContext.filter((item)=>item.id===60).map((item,index)=>{
+    {dataContext.filter((item)=>item.id===6).map((item,index)=>{
       return(
       <>
       <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
@@ -189,7 +189,7 @@ const Home= () => {
 )    })}
    </div>
    <div id="rigth-bottom-item-1">
-    {dataContext.filter((item)=>item.id===47).map((item,index)=>{
+    {dataContext.filter((item)=>item.id===27).map((item,index)=>{
       return(
       <>
       <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
@@ -203,7 +203,7 @@ const Home= () => {
 )    })}
    </div>
    <div id="rigth-bottom-item-1">
-    {dataContext.filter((item)=>item.id===49).map((item,index)=>{
+    {dataContext.filter((item)=>item.id===59).map((item,index)=>{
       return(
       <>
       <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
