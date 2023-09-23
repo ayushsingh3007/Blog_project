@@ -95,7 +95,7 @@ function Fitness() {
     return(
     <>
     <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
-    <img src={item.fit_img} alt='not there'  id='bottom-img'/>
+    <img src={item.img} alt='not there'  id='bottom-img'/>
     <h3>{item.name}</h3>
     </Link>
     <span>{item.story.slice(0,159)}..........</span>
@@ -108,7 +108,7 @@ function Fitness() {
     return(
     <>
     <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
-    <img src={item.fit_img} alt='not there'  id='bottom-img'/>
+    <img src={item.img} alt='not there'  id='bottom-img'/>
     <h3>{item.name}</h3>
     </Link>
     <span>{item.story.slice(0,159)}..........</span>
