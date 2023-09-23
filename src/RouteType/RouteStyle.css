@@ -1,4 +1,4 @@
-
+/* Navbar.css */
 
 .navbar-set {
  
@@ -20,7 +20,7 @@
   display: flex;
   justify-content: center;
   margin: auto;
-  align-items: center;}
+}
 
 .link {
   text-decoration: none;
