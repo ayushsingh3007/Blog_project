@@ -1,10 +1,11 @@
 import "./Details.css"
 import React, { useContext } from 'react';
 import { Store } from '../ContextStore/Storing';
-import {  useParams } from 'react-router-dom';
+import {   useNavigate, useParams } from 'react-router-dom';
 
 const Detail = () => {
   const [dataContext] = useContext(Store);
+  const navigate = useNavigate();
   const { id, category } = useParams();
 
   const selectedItem = dataContext.find(item => item.id === parseInt(id, 10));
@@ -14,6 +15,9 @@ const Detail = () => {
   }
 
   const categoryData = dataContext.filter(item => item.cat === category).slice(0, 3); // Get the first three items.
+  const handleBackClick = () => {
+    navigate(-1); // Go back to the previous component
+  };
 
   return (
     <div>
@@ -37,6 +41,7 @@ const Detail = () => {
           </div>
         ))}
       </div>
+      <button onClick={handleBackClick} id="Back">Go Back</button>
     </div>
   );
 }
