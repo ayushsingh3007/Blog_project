@@ -194,7 +194,7 @@ function Fitness() {
       return(
       <>
       <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
-      <img src={item.fit_img} alt='not found' id='img-right-bottom'/>
+      <img src={item.img} alt='not found' id='img-right-bottom'/>
       <h3>{item.name}</h3>
       </Link>
       <p>{item.story.slice(0,90)}.....</p>
