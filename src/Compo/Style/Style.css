@@ -315,7 +315,7 @@
       position: absolute;
       top: 20%;
       
-      
+      height: auto;
       width: 66vw;
       display: flex;
       flex-wrap: wrap;
@@ -330,28 +330,28 @@
       width:100vw;
      
       
-      height: 45vh;
+      height: 50vh;
       font-size: small;
       text-align: center;
     }
      
     #bottom-homepage{
       width: 89vw;
-      height:350vh;
+      height:360vh;
       contain: content;
       display: flex;
       flex-direction:column;
       justify-content: space-evenly;
      
       position:absolute;
-      top: 150%;
+      top: 170%;
       
     
       offset: inherit;
     }
     #top-stories{
       position: absolute;
-      top:155%;
+      top:175%;
      
       border-bottom: 3px solid red;
     }
@@ -361,7 +361,7 @@
     #bottom-item{
       margin: auto;
       width: 80vw;
-      height:80vh;
+      height:40vh;
      border-bottom: 3px solid gray;
       offset-position: initial;
       box-sizing: content-box;
@@ -372,10 +372,11 @@
     #bottom-img{
       float: left;
       width:33rem;
+      height: 50%;
     }
     #top-post{
       position:absolute;
-      top:570%;
+      top:545%;
       float: left;
       right:72%;
       border-bottom: 3px solid red;
@@ -384,7 +385,7 @@
     #bottom-right{
     
     position: absolute;
-    top: 570%;
+    top: 550%;
     left: 2%;
       width: 95vw;
       height: 110vh;
@@ -451,10 +452,10 @@
     }
     #footer{
     float: inline-end;
-    top: 700%;
+    top: 680%;
     
     width: 100vw;
-    height: 21vh;
+    height: 20vh;
     border: 1px solid black;
     
     display: flex;
@@ -489,6 +490,7 @@
 
     body {
       overflow-x: hidden;
+      overflow-y: auto;
     }
     
     .main-heading{
@@ -526,7 +528,7 @@
       text-align: center;
      }
      #the-latest{
-    width: 46vw;
+    width: 16vw;
     border-bottom: 3px solid red;
     position:absolute;
     top:14%;
@@ -561,14 +563,14 @@
      
     #bottom-homepage{
       width: 89vw;
-      height:330vh;
+      height:420vh;
       contain: content;
       display: flex;
       flex-direction:column;
       justify-content: space-evenly;
      
       position:absolute;
-      top: 150%;
+      top: 140%;
       
     
       offset: inherit;
@@ -585,7 +587,7 @@
     #bottom-item{
       margin: auto;
       width: 80vw;
-      height:53vh;
+      height:30vh;
      border-bottom: 3px solid gray;
       offset-position: initial;
       box-sizing: content-box;
@@ -596,27 +598,28 @@
     #bottom-img{
       float: left;
       width:33rem;
+      height: 45%;
     }
     #top-post{
       position:absolute;
-      top:500%;
+      top:565%;
       float: left;
-      right:70%;
+      right:72%;
       border-bottom: 3px solid red;
     }
     
     #bottom-right{
     
     position: absolute;
-    top: 500%;
+    top: 575%;
     left: 2%;
       width: 95vw;
-      height: 110vh;
+      height: auto;
       display: flex;
       flex-direction:column;
       justify-content: space-evenly;
     
-    
+    margin:auto;
      
     
     }
@@ -655,7 +658,7 @@
     #number-3{
     
       position: absolute;
-      top:80%;
+      top:84%;
       right: 2%;
       font-weight: light;
       font-style:inherit;
@@ -664,7 +667,8 @@
     }
     #img-right-bottom{
       float: left;
-      width:60%;
+      width:95%;
+      height: 50%;
     }
     
     #advertise{
@@ -674,11 +678,11 @@
       width: 100%;
     }
     #footer{
-    float: inline-end;
-    top: 600%;
-    
+    position: absolute;
+  
+    top:680%;
     width: 100vw;
-    height: 21vh;
+    height: 24vh;
     border: 1px solid black;
     
     display: flex;
@@ -997,14 +1001,14 @@
     border-bottom: 3px solid red;
     position:absolute;
     top:12%;
-    left: 4%;
+    left: 2%;
     
     
      }
     #latest-home{
      position: absolute;
      top: 16%;
-      width: 100vw;
+      width: 96vw;
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
@@ -1020,14 +1024,14 @@
      
     #bottom-homepage{
       width: 44vw;
-      height:300vh;
+      height:230vh;
       contain: content;
       display: flex;
       flex-direction:column;
       justify-content: space-evenly;
     
       position:absolute;
-      top: 40%;
+      top: 27%;
       
     
       offset: inherit;
@@ -1043,7 +1047,7 @@
     }
     #bottom-item{
       width: 97%;
-      height:38vh;
+      height:24vh;
      border-bottom: 3px solid gray;
       offset-position: initial;
       box-sizing: content-box;
@@ -1058,19 +1062,20 @@
     }
     #top-post{
       position:absolute;
-      top:60%;
+      top:56%;
       
-      right: 33%;
+      right: 35%;
       border-bottom: 3px solid red;
     }
     
     #bottom-right{
     
     position: absolute;
-    top: 71%;
+    top: 61%;
+    right: 2%;
    
-      width: 45vw;
-      height: 110vh;
+      width: 44vw;
+      height: 100vh;
       display: flex;
       flex-direction:column;
       justify-content: space-evenly;
@@ -1126,10 +1131,10 @@
     
     #advertise{
       position: absolute;
-      top:220%;
+      top:190%;
       right: 5%;
       width: 40vw;
-      height: 90vh;
+      height: 80vh;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -1140,7 +1145,7 @@
     }
     #footer{
     position: absolute;
-    top: 360%;
+    top: 320%;
     margin-bottom: 0%;
     width: 100vw;
     height: 23vh;
