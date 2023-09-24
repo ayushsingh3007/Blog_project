@@ -1,5 +1,4 @@
 
-import './App.css';
 import DynamicRoute from './RouteType/DynamicRoute';
 
 function App() {
