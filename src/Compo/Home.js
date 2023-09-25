@@ -14,7 +14,7 @@ const Home= () => {
 <div id='latest-home'>
  
   <div id='latest-item'>
-    {dataContext.filter((item)=>item.id===4).map((item,index)=>{
+    {dataContext.filter((item)=>item.id===3).map((item,index)=>{
       return(
         <div key={index}>
          <Link to={`/details/${item.id}/${item.cat}`} id='link'>
