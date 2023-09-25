@@ -16,7 +16,7 @@ body{
 #top-div{
     background-color: blanchedalmond;
     width: 40vw;
-    height: 70vh;
+   min-height: 70vh;
     content:inherit;
     margin: auto;
     border: 1px solid black;
