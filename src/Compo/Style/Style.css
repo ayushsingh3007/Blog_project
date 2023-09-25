@@ -553,7 +553,7 @@
     }
     #latest-item{
     
-      width:100vw;
+      width:98vw;
      
       
       height: 45vh;
@@ -563,14 +563,14 @@
      
     #bottom-homepage{
       width: 89vw;
-      height:420vh;
+      height:330vh;
       contain: content;
       display: flex;
       flex-direction:column;
-      justify-content: space-evenly;
+      /* justify-content: space-evenly; */
      
       position:absolute;
-      top: 140%;
+      top: 150%;
       
     
       offset: inherit;
@@ -593,6 +593,8 @@
       box-sizing: content-box;
       align-content: space-evenly;
       text-align: center;
+      margin-top: 15px;
+      margin-left: 15px;
     
     }
     #bottom-img{
@@ -602,7 +604,7 @@
     }
     #top-post{
       position:absolute;
-      top:565%;
+      top:490%;
       float: left;
       right:72%;
       border-bottom: 3px solid red;
@@ -611,7 +613,7 @@
     #bottom-right{
     
     position: absolute;
-    top: 575%;
+    top: 500%;
     left: 2%;
       width: 95vw;
       height: auto;
@@ -681,7 +683,7 @@
     #footer{
     position: absolute;
   
-    top:680%;
+    top:600%;
     width: 100vw;
     height: 24vh;
     border: 1px solid black;
@@ -701,10 +703,13 @@
       text-align: center;
       color: white;
       align-items: center;
-      line-height: 17px;
+      line-height: 20px;
+
     }
     #item-2-footer{
+      margin-top: 10px;
       display: none;
+      padding-top: 10px;
     
     }
   }
@@ -1027,7 +1032,7 @@
      
     #bottom-homepage{
       width: 44vw;
-      height:320vh;
+      height:230vh;
       contain: content;
       display: flex;
       flex-direction:column;
@@ -1054,12 +1059,13 @@
     }
     #bottom-item{
       width: 97%;
-      height:26vh;
+      height:23vh;
      border-bottom: 3px solid gray;
       offset-position: initial;
       box-sizing: content-box;
    font-size: 1.1rem;
-    
+    margin-top: 15px;
+    margin-bottom: 15px;
     
     }
     #bottom-img{
@@ -1142,7 +1148,7 @@
       top:165%;
       right: 5%;
       width: 40vw;
-      height: 120vh;
+      height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -1153,7 +1159,7 @@
     }
     #footer{
     position: absolute;
-    top: 320%;
+    top: 315%;
     margin-bottom: 0%;
     width: 100vw;
     height: 23vh;
