@@ -1027,7 +1027,7 @@
      
     #bottom-homepage{
       width: 44vw;
-      height:340vh;
+      height:320vh;
       contain: content;
       display: flex;
       flex-direction:column;
@@ -1036,7 +1036,7 @@
       /* justify-content: space-evenly; */
     
       position:absolute;
-      top: 27%;
+      top: 40%;
       
     
       offset: inherit;
@@ -1045,6 +1045,8 @@
       position: absolute;
       top:45%;
       left: 2%;
+      margin-top: 20px;
+      margin-bottom: 20px;
       border-bottom: 3px solid red;
     }
     #bottom-1{
@@ -1052,7 +1054,7 @@
     }
     #bottom-item{
       width: 97%;
-      height:24vh;
+      height:26vh;
      border-bottom: 3px solid gray;
       offset-position: initial;
       box-sizing: content-box;
@@ -1137,7 +1139,7 @@
     
     #advertise{
       position: absolute;
-      top:195%;
+      top:165%;
       right: 5%;
       width: 40vw;
       height: 120vh;
