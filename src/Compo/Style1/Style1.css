@@ -455,7 +455,7 @@
     top: 680%;
     
     width: 100vw;
-    height: 20vh;
+    height: 25vh;
     border: 1px solid black;
     
     display: flex;
@@ -467,7 +467,7 @@
     }
     #footer-item{
       width: 25vw;
-      height: 19vh;
+      height: 21vh;
       font-size: small;
       margin-top: 2px;
       text-align: center;
@@ -618,7 +618,7 @@
       display: flex;
       flex-direction:column;
       justify-content: space-evenly;
-    
+      text-align: center;    
     margin:auto;
      
     
@@ -628,10 +628,11 @@
     #rigth-bottom-item-1{
       
       width: 90%;
-      height: 28vh;
+      height: 30vh;
       float: left;
-      content: unset;
+     
      border-bottom: 3px solid gray;
+     text-align: center;
      
     }
     #number{
