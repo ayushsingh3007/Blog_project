@@ -1,31 +1,36 @@
-import React, { useContext} from 'react'
+import React, { useContext } from 'react'
 import { Store } from '../ContextStore/Storing';
-import "./Style/Style.css"
+import "./Style1/Style1.css"
 import { Link } from 'react-router-dom';
-const Home= () => {
+function Home() {
   const [dataContext]=useContext(Store);
   console.log(dataContext)
- 
-  
   return (
     <>
-     
-<h3 id='the-latest'>The Latest</h3>
-<div id='latest-home'>
+     <div id='top-img-container'>
+       <div id='top-img-1'></div>
+       <div id='top-img-2'></div>
+       <div id='top-img-3'></div>
+     </div>
+    
+         
+<h3 id='the-latest-page'>The Latest</h3>
+<div id='latest-home-page'>
  
-  <div id='latest-item'>
-    {dataContext.filter((item)=>item.id===3).map((item,index)=>{
+  <div id='latest-item-page'>
+    {dataContext.filter((item)=>item.id===16).map((item,index)=>{
       return(
-        <div key={index}>
-         <Link to={`/details/${item.id}/${item.cat}`} id='link'>
-        <img src={item.img} alt='not there'   id='thelatest-img'/>
-        <h4 >{item.name}</h4> </Link>
+        <>
+       <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+        <img src={item.img} alt='not there' id='thelatest-img'/>
+        <h4>{item.name}</h4>
+        </Link>
         <p>{item.story.slice(0,159)}....</p>
-        </div>
+        </>
       )
     })} 
 </div>
-<div id='latest-item'>
+<div id='latest-item-page'>
 {dataContext.filter((item)=>item.id===17).map((item,index)=>{
       return(
         <>
@@ -39,15 +44,16 @@ const Home= () => {
     })}
     </div>
 
-    <div id='latest-item'>
+    <div id='latest-item-page'>
 
-    {dataContext.filter((item)=>item.id===31).map((item,index)=>{
+    {dataContext.filter((item)=>item.id===18).map((item,index)=>{
       return(
       
-    <>  
+    <>
     <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
         <img src={item.img} alt='not there' id='thelatest-img'/>
-        <h4>{item.name}</h4></Link>
+        <h4>{item.name}</h4>
+        </Link>
         <p>{item.story.slice(0,159)}..........</p>
       </>  
       )
@@ -55,10 +61,10 @@ const Home= () => {
     </div>
 </div>
 
-<h3 id='top-stories'>Top Stories</h3>
-<div id='bottom-homepage'>
-<div id='bottom-item'>
-{dataContext.filter((item)=>item.id===52).map((item,index)=>{
+<h3 id='top-stories-page'>Top Stories</h3>
+<div id='bottom-homepage-page'>
+<div id='bottom-item-page'>
+{dataContext.filter((item)=>item.id===19).map((item,index)=>{
   return(
     <>
     <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
@@ -73,12 +79,13 @@ const Home= () => {
   
 })}
 </div>
-<div id="bottom-item">
-{dataContext.filter((item)=>item.id===63).map((item,index)=>{
+<div id="bottom-item-page">
+{dataContext.filter((item)=>item.id===20).map((item,index)=>{
   return(
     <>
     <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
     <img src={item.img} alt='not there'  id='bottom-img'/>
+   
     <h3>{item.name}</h3>
     </Link>
     <p>{item.story.slice(0,159)}..........</p>
@@ -90,20 +97,8 @@ const Home= () => {
 })}
 </div>
 
-<div id='bottom-item'>
-  {dataContext.filter((item)=>item.id===69).map((item,index)=>{
-    return(
-    <>
-    <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
-    <img src={item.img} alt='not there'  id='bottom-img'/>
-    <h3>{item.name}</h3></Link>
-    <span>{item.story.slice(0,159)}..........</span>
-    
-    </>)
-  })}
-</div>
-<div id='bottom-item'>
-  {dataContext.filter((item)=>item.id===30).map((item,index)=>{
+<div id='bottom-item-page'>
+  {dataContext.filter((item)=>item.id===21).map((item,index)=>{
     return(
     <>
     <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
@@ -115,8 +110,8 @@ const Home= () => {
     </>)
   })}
 </div>
-<div id='bottom-item'>
-  {dataContext.filter((item)=>item.id===46).map((item,index)=>{
+<div id='bottom-item-page'>
+  {dataContext.filter((item)=>item.id===22).map((item,index)=>{
     return(
     <>
     <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
@@ -128,8 +123,36 @@ const Home= () => {
     </>)
   })}
 </div>
-<div id='bottom-item'>
-  {dataContext.filter((item)=>item.id===41).map((item,index)=>{
+<div id='bottom-item-page'>
+  {dataContext.filter((item)=>item.id===23).map((item,index)=>{
+    return(
+    <>
+    <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+    <img src={item.img} alt='not there'  id='bottom-img'/>
+    <h3>{item.name}</h3>
+    </Link>
+    <span>{item.story.slice(0,159)}..........</span>
+    
+    </>)
+  })}
+</div>
+<div id='bottom-item-page'>
+  {dataContext.filter((item)=>item.id===24).map((item,index)=>{
+    return(
+    <>
+    <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+
+    <img src={item.img} alt='not there'  id='bottom-img'/>
+    <h3>{item.name}</h3>
+    </Link>
+    <span>{item.story.slice(0,159)}..........</span>
+    
+    </>)
+  })}
+</div>
+
+<div id='bottom-item-page'>
+  {dataContext.filter((item)=>item.id===25).map((item,index)=>{
     return(
     <>
     <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
@@ -142,20 +165,6 @@ const Home= () => {
   })}
 </div>
 
-<div id='bottom-item'>
-  {dataContext.filter((item)=>item.id===17).map((item,index)=>{
-    return(
-    <>
-    <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
-    <img src={item.img} alt='not there'  id='bottom-img'/>
-    <h3>{item.name}</h3>
-    </Link>
-    <span>{item.story.slice(0,159)}..........</span>
-    
-    </>)
-  })}
-</div>
-
 
 
 
@@ -172,28 +181,29 @@ const Home= () => {
 </div>
 
 
-<h3 id='top-post'>Top Posts</h3>
-<div id='bottom-right'>
-   <div id="rigth-bottom-item-1">
-    {dataContext.filter((item)=>item.id===6).map((item,index)=>{
+<h3 id='top-post-page'>Top Posts</h3>
+<div id='bottom-right-page'>
+   <div id="rigth-bottom-item-1-page">
+    {dataContext.filter((item)=>item.id===26).map((item,index)=>{
       return(
-      <>
-      <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
-      <img src={item.img} alt='not found'  id='img-right-bottom'/>
+      <><Link to={`/details/${item.id}/${item.cat}`}  id='link'>
+
+      <img src={item.img} alt='not found'  id='img-right-bottom-page'/>
       <h3>{item.name}</h3>
       </Link>
+
       <p>{item.story.slice(0,90)}.....</p>
       <h1 id='number' >1</h1>
 
       </>
 )    })}
    </div>
-   <div id="rigth-bottom-item-1">
+   <div id="rigth-bottom-item-1-page">
     {dataContext.filter((item)=>item.id===27).map((item,index)=>{
       return(
       <>
       <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
-      <img src={item.img} alt='not found' id='img-right-bottom'/>
+      <img src={item.img} alt='not found' id='img-right-bottom-page'/>
       <h3>{item.name}</h3>
       </Link>
       <p>{item.story.slice(0,90)}.....</p>
@@ -202,14 +212,15 @@ const Home= () => {
       </>
 )    })}
    </div>
-   <div id="rigth-bottom-item-1">
-    {dataContext.filter((item)=>item.id===59).map((item,index)=>{
+   <div id="rigth-bottom-item-1-page">
+    {dataContext.filter((item)=>item.id===28).map((item,index)=>{
       return(
       <>
       <Link to={`/details/${item.id}/${item.cat}`}  id='link'>
-      <img src={item.img} alt='not found'  id='img-right-bottom'/>
+      <img src={item.img} alt='not found'  id='img-right-bottom-page'/>
       <h3>{item.name}</h3>
       </Link>
+
       <p>{item.story.slice(0,90)}.....</p>
       <h1 id='number-3' >3</h1>
 
@@ -222,10 +233,11 @@ const Home= () => {
 
 </div>
 
-<div id="advertise"><h1>Advertisement</h1></div>
+<div id="advertise-page"><h1>Advertisement</h1></div>
 
-      
-<div id='footer'>
+
+           
+<div id='footer-page'>
   <div id='footer-item'>
     <h3>Contact Us</h3>
     <h4>Address:viajy nagar prayagraj </h4>
@@ -233,9 +245,9 @@ const Home= () => {
     <p>support@134</p>
 
   </div>
-  <div id='item-2-footer'>
+  <div id='footer-item'>
     <h3>Our Mission</h3>
-    <h6>We are non profit association provided a good quality of education and give the correct direction </h6>
+    <p>We are non profit association provided a good quality of education and give the correct direction to your carrer.....</p>
   </div>
   <div id='footer-item'>
   <h3>SUPPORT</h3>
