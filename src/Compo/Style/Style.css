@@ -64,7 +64,7 @@
   width: 7vw;
   border-bottom: 3px solid red;
   position:absolute;
-  top:14%;
+  top:12%;
   left: 4%;
   
   
@@ -204,10 +204,10 @@
   }
   #footer{
   position: absolute;
-  top: 320%;
+  top: 310%;
   margin-bottom: 0%;
   width: 100vw;
-  height: 20vh;
+  height: 25vh;
   border: 1px solid black;
   margin: 0;
   padding: 0;
@@ -1007,7 +1007,7 @@
     border-bottom: 3px solid red;
     position:absolute;
     top:12%;
-    left: 2%;
+    left: 4%;
     
     
      }
@@ -1041,7 +1041,7 @@
       /* justify-content: space-evenly; */
     
       position:absolute;
-      top: 40%;
+      top: 45%;
       
     
       offset: inherit;
@@ -1085,9 +1085,9 @@
     
     position: absolute;
     top: 61%;
-    right: 2%;
+    right: 0%;
    
-      width: 44vw;
+      width: 43vw;
       height: 100vh;
       display: flex;
       flex-direction:column;
@@ -1733,7 +1733,7 @@
     width: 7vw;
     border-bottom: 3px solid red;
     position:absolute;
-    top:15%;
+    top:12%;
     left: 4%;
     
     
@@ -1888,7 +1888,7 @@
     
     bottom:0%;
     width: 100vw;
-    height: 20vh;
+    height: 27vh;
     border: 1px solid black;
     margin: 0;
     padding: 0;
